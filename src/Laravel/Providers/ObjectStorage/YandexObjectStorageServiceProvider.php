@@ -10,7 +10,7 @@ use League\Flysystem\AwsS3v3\AwsS3Adapter;
 use League\Flysystem\Filesystem;
 use Storage;
 
-class YandexObjectStorageProvider extends ServiceProvider
+class YandexObjectStorageServiceProvider extends ServiceProvider
 {
     /**
      * Perform post-registration booting of services.
