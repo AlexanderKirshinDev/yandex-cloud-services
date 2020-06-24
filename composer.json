@@ -1,7 +1,13 @@
 {
     "name": "kirshin/yandex-cloud-services",
     "type": "library",
-    "description": "Library for Yandex Cloud Services",
+    "description": "library for Yandex Cloud Services",
+    "keywords": [
+        "yandex",
+        "yandex cloud",
+        "yandex cloud services",
+        "yandex object storage"
+    ],
     "require": {
         "league/flysystem-aws-s3-v3": "^1.0"
     },
