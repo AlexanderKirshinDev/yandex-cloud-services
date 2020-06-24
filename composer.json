@@ -1,0 +1,31 @@
+{
+    "name": "kirshin/yandex-cloud-services",
+    "type": "library",
+    "description": "Library for Yandex Cloud Services",
+    "require": {
+        "league/flysystem-aws-s3-v3": "^1.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Kirshin",
+            "email": "alexander.kirshin.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kirshin\\YandexCloudServices\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kirshin\\YandexCloudServices\\Laravel\\Providers\\ObjectStorage\\YandexObjectStorageServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
