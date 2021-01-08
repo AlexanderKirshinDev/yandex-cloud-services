@@ -15,6 +15,7 @@
         "roave/security-advisories": "dev-master"
     },
     "license": "MIT",
+    "homepage": "http://kirshin.site",
     "authors": [
         {
             "name": "Alexander Kirshin",
